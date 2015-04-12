@@ -1,0 +1,163 @@
+{
+  "nom": "Corentin Hardy",
+  "adresse_rue": "26 allée des Micocouliers, hameau du Puissanton",
+  "addresse_codePostal": "06220",
+  "addresse_ville": "Vallauris",
+  "adresse_pays": "France",
+  "email": "hardy@polytech.unice.fr",
+  "telephone": "06 XX XX XX XX",
+  "maitrises_divers": [
+    {
+      "elem": "Java",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "Python",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "C",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "PHP",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "JavaScript",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "XML",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "HTML",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "CSS",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "JSON",
+      "kind": "language de programmation",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "Eclipse",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "Sublime Text",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "LibreOffice",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "Gimp",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "Reason",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "Microsoft Project",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    },
+    {
+      "elem": "SolidWorks",
+      "kind": "logiciel",
+      "content": "Expert, TODO"
+    }
+  ],
+  "formation": [
+    {
+      "annee_deb": "2006",
+      "annee_fin": "2009",
+      "ecole": "au collège St Marie de Chasagne",
+      "type": "horaires aménagés pour la formation musicale",
+      "text": "Ce collège m'a apporté une culture musicale complète, et une curiosité inarrêtable."
+    },
+    {
+      "annee_deb": "2014",
+      "annee_fin": "2015",
+      "ecole": "à l'école polytechnique de Polytech'Nice Sophia",
+      "type": "Science informatique (SI)",
+      "text": "Cette formation m'a donné une expérience en informatique beaucoup plus avancée"
+    },
+    {
+      "annee_deb": "2012",
+      "annee_fin": "2014",
+      "ecole": "à l'école polytechnique de Polytech'Nice Sophia",
+      "type": "parcours des écoles d'ingénieurs Polytech (Peip)",
+      "text": "C'est une formation préparatoire au cycle ingénieur, intégré directement à l'école."
+    },
+    {
+      "annee_deb": "2009",
+      "annee_fin": "2012",
+      "ecole": "au lycée Jules Ferry Cannes (06)",
+      "type": "série scientifique option science de l'ingénieur et physique",
+      "text": "Diplôme du Baccalauréat Générale"
+    }
+  ],
+  "langues": [
+    {
+      "langue": "Ces formations m'ont donné l'occasion d'apprendre l'anglais jusqu'au niveau conversationnel (score au TOEICⓇ Test Of English for International Communication – score 445/950)."
+    },
+    {
+      "langue": "Je suis aussi en train d'apprendre l'allemand."
+    }
+  ],
+  "realisation": [
+    {
+      "annee": "2014",
+      "content": "j'ai réalisé en binôme dans le cadre de ma formation de Peip2 un site internet de bataille navale. Il a été réalisé en PHP et JavaScript. L'architecture Ajax m'a posé de gros problèmes, en effet je ne l'avais encore jamais utilisé. Je me suis donc énormément investi dans ce projet pour rattraper mes lacunes, et rendre le site fonctionnel et agréable d'utilisation. Ce site m'a permis d'approfondir mes connaissances sur JavaScript, sur l'utilisation d'Ajax et sur JSON."
+    },
+    {
+      "annee": "1015",
+      "content": "j'ai participé à un projet en SI3 en groupe de quatre. Nous avons réalisé un jeu textuel. J'ai notamment fait la génération de carte aléatoire, dans laquelle le joueur avez des objectifs à réaliser dans des endroits placer aléatoirement."
+    },
+    {
+      "annee": "2013",
+      "content": "j'ai programmé un jeu de 2048 en Java. C'était un sujet de projet de Peip2 très ouvert, nous n'avions pas beaucoup de contraintes, nous devions juste le réalisé en binôme. Cela m'a permis de découvrir librement des nouvelles façons d'implémenter de nouvelle fonctionnalité originales, par rapport à la version présentée dans nos cours de Java."
+    },
+    {
+      "annee": "2012",
+      "content": "j'ai programmé un logiciel de conception d'appartement sur Python. Ce projet de Peip1 avait une difficulté majeure, nous ne pouvions utiliser pour le rendu graphique seulement le module Turtle, qui est assez limité. En tant qu'un de mes premiers projets, il m'a appris l'importance vitale pour certains programmes de limiter les opérations basiques."
+    }
+  ],
+  "info_complementaire": [
+    {
+      "content": [
+        "J'éprouve un vif intérêt pour la musique.",
+        "Je joue du cornet, et des percussions (marimba, djembé, timbales, vibraphone, caisse claire, …) depuis une dizaine d'années.",
+        "Je recherche actuellement des ensembles musicaux, tels qu'un orchestre d'harmonie, un gamelan et un ensemble de musique africaine."
+      ]
+    },
+    {
+      "content": [
+        "Je suis un membre du BDJ, le bureau de jeux de Polytech'Nice Sophia.",
+        "C'est une association à but non lucratif dont le but est de valoriser les jeux de tous types pour les étudiants.",
+        "J'ai ainsi participé à des animations déguisées, et surveillées des parties de jeux, et des tournois."
+      ]
+    }
+  ]
+}

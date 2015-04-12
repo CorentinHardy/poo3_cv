@@ -1,0 +1,70 @@
+<div class="main">
+  <div class="CV">
+    <h1 id="top"><i class="cv_nom">Curriculum Vitae</i> de <strong class="cv_nom">{{CV.nom}}</strong></h1>
+
+    <h2>mes informations personnelles</h2>
+    <div id="info_perso" class="row">
+      <div id="info_p_telEmail" class="col-sm-6">
+        <h4>contact:</h4>
+        <ul>
+          <li>téléphone: {{CV.telephone}}</li>
+          <li><a href="mailto:{{CV.email}}">email: {{CV.email}}</a></li>
+        </ul>
+      </div>
+      <div id="info_p_adresse" class="col-sm-6">
+        <h4>adresse:</h4>
+        <p>{{CV.adresse_rue}}</p>
+        <p>{{CV.addresse_codePostal}} {{CV.addresse_ville}}, {{CV.adresse_pays}}</p>
+      </div>
+    </div>
+
+    <div id="lang_prog">
+      <h2>mes languages de programmations et logiciels prefere</h2>
+      <label class="radio_selector"><input ng-model="lang_prog_radioFilter" type="radio"  value="" checked="checked"/>tous</label>
+      <label class="radio_selector"><input ng-model="lang_prog_radioFilter" type="radio"  value="language"/>languages</label>
+      <label class="radio_selector"><input ng-model="lang_prog_radioFilter" type="radio"  value="logiciel"/>logiciels</label>
+      <input type="text" ng-model="lang_prog_text" value=" "/>
+      <h4 ng-if="(lang_prog_radioFilter != '' && lang_prog_radioFilter != null ) || (lang_prog_text != '' && lang_prog_text != null)">
+        <span ng-if="(lang_prog_radioFilter != '' && lang_prog_radioFilter != null )">seulement {{lang_prog_radioFilter}} </span>
+        <span ng-if="(lang_prog_radioFilter != '' && lang_prog_radioFilter != null ) && (lang_prog_text != '' && lang_prog_text != null)">et </span>
+        <span ng-if="(lang_prog_text != '' && lang_prog_text != null)">contenant {{lang_prog_text}}</span>
+      </h4>
+      <div class="a_lang_prog">
+        <ul id="list_lang_prog" ng-repeat="post in CV.maitrises_divers | filter:{kind: lang_prog_radioFilter} | filter:lang_prog_text">
+          <li>{{post.elem}} : {{post.content}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="formation">
+      <h2>ma formation</h2>
+      <h3>mes études:</h3>
+      <p> ma formation entre <input type="number" name="inputFMinimumYear" ng-model="minimumFYear.value" min="{{minimumfixeFYear.value}}" max="{{maximumFYear.value}}" required/> et
+        <input type="number" name="inputFMaximumYear" ng-model="maximumFYear.value" min="{{minimumFYear.value}}" max="{{maximumfixeFYear.value}}" required/>
+      </p>
+      <ul id="list_formation" ng-repeat="post in CV.formation | orderBy:orderFormation">
+          <li ng-if="minimumFYear.value <= post.annee_fin && maximumFYear.value >= post.annee_deb">De {{post.annee_deb}} a {{post.annee_fin}}, je suis allée {{post.ecole}}, en {{post.type}}. {{post.text}}</li>
+      </ul>
+      <h3>mes langues</h3>
+      <ul id="list_lang" ng-repeat="post in CV.langues">
+        <li>{{post.langue}}</li>
+      </ul>
+    </div>
+
+    <div id="realisat">
+      <h2>mes realisations</h2>
+      <label>uniquement en <input id="inputRYear" type="number" name="inputRYear" ng-model="RYear.value" min="{{minimumRYear.value}}" max="{{maximumRYear.value}}" required/></label>
+      <input type="button" ng-click="RYear.value = null" name="reset_inputRYear" value="reset"/>
+      <ul ng-repeat="post in CV.realisation | filter:RYear.value | orderBy:orderRealisation">
+        <li>En {{post.annee}}, {{post.content}}</li>
+      </ul>
+    </div>
+
+    <div id="qq_perso">
+      <h2>quelques infos personelles</h2>
+      <span ng-repeat="divers in CV.info_complementaire">
+        <p><span ng-repeat="post in divers.content">{{post}} </span></p>
+      </span>
+    </div>
+  </div>
+</div>
