@@ -20,13 +20,13 @@ angular.module('testApp')
       value: ""
     };
     $scope.minimumFYear = {
-      value: 2009
+      value: 2006
     };
     $scope.maximumFYear = {
       value: 2015
     };
     $scope.minimumfixeFYear = {
-      value: 2009
+      value: 2006
     };
     $scope.maximumfixeFYear = {
       value: 2015

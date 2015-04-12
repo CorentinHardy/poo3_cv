@@ -132,8 +132,16 @@
       "content": "j'ai réalisé en binôme dans le cadre de ma formation de Peip2 un site internet de bataille navale. Il a été réalisé en PHP et JavaScript. L'architecture Ajax m'a posé de gros problèmes, en effet je ne l'avais encore jamais utilisé. Je me suis donc énormément investi dans ce projet pour rattraper mes lacunes, et rendre le site fonctionnel et agréable d'utilisation. Ce site m'a permis d'approfondir mes connaissances sur JavaScript, sur l'utilisation d'Ajax et sur JSON."
     },
     {
-      "annee": "1015",
+      "annee": "2014",
+      "content": "j'ai commencé un projet personnel. Je veux réaliser un site pleinement fonctionnel de base de données de divers média (bd, films, série, manga). Ce site m'a servi d'application directe des cours d'introduction à internet que je suivais en peip2. Je l'ai donc commencé intégralement en PHP, avant de l'adapter en JavaScript, puis en apax pour récupérer du XML. La version PHP est pleinement fonctionnelle."
+    },
+    {
+      "annee": "2015",
       "content": "j'ai participé à un projet en SI3 en groupe de quatre. Nous avons réalisé un jeu textuel. J'ai notamment fait la génération de carte aléatoire, dans laquelle le joueur avez des objectifs à réaliser dans des endroits placer aléatoirement."
+    },
+    {
+      "annee": "2015",
+      "content": "je suis en train de programmer avec un groupe de 3 autres étudiants un automate pour un cours d'OGL. Il doit réussir à explorer une ile construite aléatoirement par un programme réaliser par M.Mosser pendant sa thèse. Ce projet nous apprend l'utilisation d'outils tels que git, ou sonar, pour améliorer notre propre productivité."
     },
     {
       "annee": "2013",
